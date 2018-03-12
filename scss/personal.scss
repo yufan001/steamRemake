@@ -1,0 +1,326 @@
+@charset 'utf-8';
+body {
+    background-color: #171717;
+    a {
+        color: white;
+        &:hover {
+            color: #66C0F4;
+            text-decoration: none;
+        }
+    }
+}
+
+section {
+    background-image: url(../img/person/sectionBg.jpg);
+    background-position: 49.999% 0;
+    background-color: #000000;
+    .personalHeader {
+        height: 224px;
+        width: 976px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 23px 20px 20px;
+        background-image: url(../img/person/profile_header_bg_texture.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: left;
+        color: #8F98A0;
+        font-size: 14px;
+        .personImg {
+            width: 164px;
+            height: 164px;
+            border: 2px solid #6A6A6A;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        .personLevel {
+            color: white;
+            width: 268px;
+            .level_content {
+                font-size: 24px;
+                line-height: 40px;
+                margin-bottom: 13px;
+                cursor: pointer;
+                .level_num {
+                    display: inline-block;
+                    height: 28px;
+                    width: 28px;
+                    border: 2px solid red;
+                    border-radius: 16px;
+                    font-size: 16px;
+                    text-align: center;
+                    line-height: 26px;
+                    margin-right: 7px;
+                }
+            }
+            .header_badge {
+                border: 1px solid #212121;
+                border-radius: 3px;
+                background-color: #222223;
+                height: 70px;
+                box-shadow: 1px 1px 0 #343944;
+                margin-bottom: 13px;
+                width: 266px;
+                height: 70px;
+                font-size: 12px;
+                .badge_icon {
+                    width: 54px;
+                    height: 54px;
+                    margin-top: 8px;
+                    margin-left: 8px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .icon_content {
+                    padding-left: 10px;
+                    padding-top: 18px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    font-size: 12px;
+                    p {
+                        margin-bottom: 0;
+                    }
+                    span {
+                        color: #898989;
+                    }
+                }
+            }
+            a {
+                text-decoration: none;
+                color: white;
+                &:hover {
+                    background: linear-gradient( to bottom, #9ba9bf 5%, #282f3d 95%);
+                }
+                .badge_edit {
+                    display: block;
+                    width: 122px;
+                    line-height: 30px;
+                    font-size: 15px;
+                    padding: 0 15px;
+                    border: 1px solid #7A8494;
+                    border-radius: 2px;
+                    background: linear-gradient( to bottom, #33425a 5%, #282f3d 95%);
+                }
+            }
+        }
+        .header_content {
+            padding-left: 180px;
+            h3 {
+                color: white;
+                margin-top: 10px;
+            }
+        }
+    }
+    .main {
+        width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+        background: rgba(0, 0, 0, .75);
+        padding-top: 20px;
+        padding-left: 10px;
+        .trends {
+            width: 636px;
+            font-size: 13px;
+            color: #8F98A0;
+            .show_pic {
+                background-image: url(../img/person/showcase_bg.png);
+                background-position: top left;
+                background-repeat: no-repeat;
+                background-color: #000000;
+                border-radius: 3px;
+                padding: 5px 10px 30px 10px;
+                h3 {
+                    margin-top: 0;
+                    margin-bottom: 5px;
+                    font-size: 20px;
+                    color: #5491cf;
+                }
+                .screen_shot {
+                    background-color: #000000;
+                    .pic_list {
+                        div {
+                            margin-bottom: 15px;
+                        }
+                        .imgmore {
+                            color: white;
+                            text-align: center;
+                            line-height: 57px;
+                            background-color: #222223;
+                        }
+                    }
+                }
+            }
+            .show_news {
+                font-size: 20px;
+                line-height: 38px;
+                background: #000000;
+                margin-top: 10px;
+                padding-left: 10px;
+                border-radius: 3px;
+            }
+            .game_content {
+                padding: 8px 10px;
+                margin-bottom: 20px;
+                background-color: #141414;
+                border-radius: 5px;
+                .content_img {
+                    width: 184px;
+                    margin-right: 10px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .content_time {
+                    text-align: right;
+                    margin-top: 34px;
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+                .content_info {
+                    height: 70px;
+                    p {
+                        margin-bottom: 0;
+                        padding-top: 10px;
+                        color: white;
+                        font-size: 14px;
+                    }
+                }
+                .game_stats {
+                    width: 616px;
+                    padding: 9px 11px 10px;
+                    background-color: #282828;
+                    border-radius: 3px;
+                    border-top: 1px solid #4d4d4d;
+                    margin-top: 9px;
+                    p {
+                        line-height: 32px;
+                        font-size: 13px;
+                        margin-bottom: 0;
+                        span {
+                            color: white;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+            }
+            .check_recent {
+                text-align: right;
+                span:not(:last-child) {
+                    padding-right: 5px;
+                    border-right: 1px solid #8F98A0;
+                }
+            }
+            .leave_sugs {
+                font-size: 12px;
+                margin-top: 100px;
+                .words {
+                    font-size: 20px;
+                    padding-right: 10px;
+                }
+            }
+            .comments {
+                margin-top: 15px;
+                .comments_img {
+                    margin-right: 8px;
+                    width: 34px;
+                    border: 1px solid #BFBFBF;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .comments_box {
+                    input {
+                        width: 576px;
+                        height: 37px;
+                        background: #3a3a3a;
+                        border: 1px solid #000000;
+                        padding: 4px 6px 4px 6px;
+                        &::-webkit-input-placeholder {
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+        .info {
+            width: 268px;
+            color: #ebebeb;
+            margin-right: 10px;
+            line-height: 35px;
+            .now_info {
+                font-size: 20px;
+                margin-bottom: 0;
+
+            }
+            .ach_count {
+                font-size: 14px;
+                color: white;
+                div span {
+                    font-size: 24px;
+                    color: #9b9b9b;
+                    padding-left: 8px;
+                }
+                img {
+                    width: 54px;
+                    &:not(:last-child) {
+                        margin-right: 15px;
+                    }
+                }
+            }
+            .friends {
+                margin-top: 50px;
+                .friends_num {
+                    font-size: 14px;
+                    span {
+                        font-size: 24px;
+                        color: #9b9b9b;
+                        padding-left: 8px;
+                    }
+                }
+                .friends_detail {
+                    font-size: 11px;
+                    color: #57cbde;
+                    .friends_img {
+                        width: 34px;
+                        border: 1px solid #57cbde;
+                        margin-right: 8px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .firends_levels{
+                        width: 32px;
+                        height: 32px;
+                        border: 2px solid #d95b43;
+                        border-radius: 50%;
+                        font-size: 16px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: white;   
+                    }
+                    .friends_name{
+                        height: 44px;
+                        p{
+                            line-height: 15px;
+                            height: 15px;
+                            margin-bottom: 0;
+
+                        }
+                    }
+                }
+                .friends_leaving{
+                    color: #898989;
+                    .friends_img{
+                        border: 1px solid #898989;
+                    }
+                }
+            }
+        }
+    }
+}

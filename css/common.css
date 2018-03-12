@@ -1,0 +1,160 @@
+body {
+  background-color: #1b2838;
+  color: #c6d4df; }
+  body a:focus {
+    background-color: transparent !important; }
+
+header {
+  background-color: #171a21;
+  min-width: 940px;
+  font-size: 14px;
+  font-family: "Motiva Sans", Sans-serif;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #b8b6b4; }
+  header a {
+    color: #bfbfbf; }
+  header .content {
+    position: relative;
+    width: 940px;
+    height: 104px;
+    margin-left: auto;
+    margin-right: auto; }
+    header .content .logo {
+      float: left;
+      padding-top: 30px;
+      margin-right: 40px;
+      width: 176px;
+      height: 44px; }
+    header .content .supernav_container {
+      position: absolute;
+      left: 200px; }
+      header .content .supernav_container .menuitem {
+        display: block;
+        position: relative;
+        padding-top: 45px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+        line-height: 16px;
+        float: left;
+        color: #b8b6b4;
+        text-transform: uppercase; }
+        header .content .supernav_container .menuitem:hover {
+          color: white;
+          background-color: transparent; }
+      header .content .supernav_container .menuitem:hover ~ .sub_dropdown,
+      header .content .supernav_container .sub_dropdown:hover {
+        display: block; }
+      header .content .supernav_container #navbar .sub_dropdown {
+        min-width: 25px;
+        padding-right: 10px;
+        background-color: #171a21;
+        font-size: 11px; }
+        header .content .supernav_container #navbar .sub_dropdown a {
+          color: #b8b6b4;
+          padding: 5px 15px; }
+          header .content .supernav_container #navbar .sub_dropdown a:hover {
+            color: white;
+            background-color: transparent; }
+    header .content .header_right {
+      position: absolute;
+      right: 0px;
+      top: 6px;
+      height: 21px;
+      line-height: 21px;
+      font-size: 11px;
+      z-index: 1; }
+      header .content .header_right .right_menu {
+        line-height: 24px;
+        vertical-align: top;
+        display: inline-block; }
+        header .content .header_right .right_menu .install_btn {
+          vertical-align: middle;
+          display: inline-block;
+          position: relative;
+          height: 21px;
+          line-height: 21px;
+          margin-right: 3px; }
+          header .content .header_right .right_menu .install_btn .btn_leftcap {
+            background-image: url(../img/index/btn_header_installsteam_gray.png);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 24px;
+            height: 20px;
+            background-position: 0px 0px; }
+          header .content .header_right .right_menu .install_btn .btn_rightcap {
+            background-image: url(../img/index/btn_header_installsteam_gray.png);
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            width: 1px;
+            height: 21px; }
+          header .content .header_right .right_menu .install_btn .btn_content {
+            background-image: url(../img/index/btn_header_installsteam_gray.png);
+            display: inline-block;
+            padding-left: 27px;
+            padding-right: 7px;
+            height: 21px;
+            line-height: 21px;
+            background-position: 0px -21px;
+            background-repeat: repeat-x;
+            text-decoration: none;
+            color: #e5e4dc;
+            font-weight: normal;
+            cursor: pointer; }
+            header .content .header_right .right_menu .install_btn .btn_content:hover {
+              color: white; }
+        header .content .header_right .right_menu .btn-group .noti_btn {
+          padding: 0 8px;
+          border-radius: 0;
+          border: none;
+          background-color: #262625;
+          color: #b8b6b4; }
+        header .content .header_right .right_menu .btn-group .username_btn {
+          font-size: 11px;
+          background: transparent; }
+          header .content .header_right .right_menu .btn-group .username_btn:hover, header .content .header_right .right_menu .btn-group .username_btn:focus {
+            color: white; }
+          header .content .header_right .right_menu .btn-group .username_btn ~ .noti_dropdown li a {
+            color: #e5e4dc;
+            line-height: 25px; }
+        header .content .header_right .right_menu .btn-group .noti_dropdown {
+          left: auto;
+          right: 0;
+          border: 1px solid #82807c;
+          border-radius: 0;
+          background-color: #3b3938;
+          background-image: url(../img/index/bg_popup.png);
+          background-repeat: repeat-x;
+          background-position: top; }
+          header .content .header_right .right_menu .btn-group .noti_dropdown li a {
+            font-size: 13px;
+            line-height: 30px;
+            color: #bfbfbf; }
+            header .content .header_right .right_menu .btn-group .noti_dropdown li a:hover {
+              background-color: #1b2838; }
+        header .content .header_right .right_menu .wallet_ctn {
+          text-align: right;
+          padding-right: 15px;
+          font-size: 11px; }
+          header .content .header_right .right_menu .wallet_ctn a {
+            padding: 0 4px;
+            text-decoration: none; }
+            header .content .header_right .right_menu .wallet_ctn a:hover {
+              color: white; }
+      header .content .header_right .user_avatar {
+        display: inline-block;
+        margin-left: 3px;
+        width: 35px;
+        height: 35px;
+        padding: 1px;
+        background: linear-gradient(to bottom, #6a6a6a 5%, #555555 95%); }
+        header .content .header_right .user_avatar img {
+          width: 32px;
+          height: 32px;
+          padding: 1px;
+          border: none; }
+
+/*# sourceMappingURL=common.css.map */
